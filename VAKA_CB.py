@@ -19,7 +19,7 @@ for iso in isotopes.getContainer():
     print ("Iso ",cnt ," ", iso.getMZ(), "has abundance", iso.getIntensity()*100, "%")
     cnt=cnt+1
     x=x+iso.getMZ()
-print("massof V + mass of A + mass of K +mass of A = ",x)
+print("mass of V + mass of A + mass of K + mass of A = ",x)
 mz = seq.getMZ(1)+seq.getMZ(2)+seq.getMZ(3)+seq.getMZ(4)
 print("MZ = ",mz)
 
